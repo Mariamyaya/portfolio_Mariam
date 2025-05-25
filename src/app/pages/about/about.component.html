@@ -1,0 +1,101 @@
+<!-- SECTION À PROPOS -->
+<section class="about">
+  <div class="about-container">
+    <!-- IMAGE -->
+    <div class="about-image">
+      <img src="/images/image.png" alt="Photo de Mariam Yaya Traore" />
+    </div>
+
+    <!-- TEXTE -->
+    <div class="about-text">
+      <h1>À propos de moi</h1>
+      <p>
+        Je m'appelle Mariam Yaya Traore, actuellement en 4ᵉ année d’école d’ingénierie en informatique, avec une spécialisation en 
+        Software Engineering. Au-delà des lignes de code, ce qui me motive chaque jour, c’est la création de solutions utiles, accessibles
+         et bien pensées. J’aime explorer comment une interface claire, un backend solide et une bonne expérience utilisateur peuvent 
+         transformer une idée en produit concret. Mes projets, qu’ils soient académiques ou personnels, m’ont permis de renforcer
+          ma maîtrise de technologies comme HTML, CSS, Javascript, Angular, Python, Java ou encore SQL, tout en développant ma rigueur, ma curiosité et mon envie de toujours apprendre.
+      </p>
+      <p>
+       Mon objectif est de devenir développeuse fullstack, avec une expertise particulière en Angular pour le frontend et Python/Java 
+       pour le backend. Je maîtrise également des outils comme HTML, SCSS, Git, PostgreSQL et 
+       je m’intéresse de près à l’optimisation de l’expérience utilisateur (UI/UX).
+       J’ai eu l’opportunité de travailler sur plusieurs projets personnels et académiques, mêlant développement d’interfaces, 
+       logique métier et intégration de bases de données,ce qui m’a permis de mettre en pratique mes compétences de manière concrète.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!--SECTION COMPÉTENCES -->
+<!-- <section class="skills">
+  <h2>Mes compétences</h2>
+  <ul>
+    <li *ngFor="let skill of competences">{{ skill }}</li>
+  </ul>
+</section> --> 
+
+<section class="skills">
+  <h2>Mes compétences</h2>
+
+  <div class="skills-grid">
+    <!-- Colonne Frontend -->
+    <div class="skills-column">
+      <h3><i class="fas fa-code"></i> Frontend</h3>
+      <ul>
+        <li *ngFor="let tech of frontendTechnos">
+          <i [class]="tech.icon"></i> {{ tech.name }}
+        </li>
+      </ul>
+    </div>
+
+    <!-- Colonne Frontend -->
+    <div class="skills-column">
+      <h3><i class="fas fa-code"></i>Backend</h3>
+      <ul>
+        <li *ngFor="let tech of  backendTechnos">
+          <i [class]="tech.icon"></i> {{ tech.name }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills-column">
+      <h3><i class="fas fa-layer-group"></i> Designe UI</h3>
+      <ul>
+        <li *ngFor="let fw of designUi">
+          <i [class]="fw.icon"></i> {{ fw.name }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="skills-column">
+      <h3><i class="fas fa-layer-group"></i> Ouitls et Methodologies</h3>
+      <ul>
+        <li *ngFor="let fw of outilDeVersion">
+          <i [class]="fw.icon"></i> {{ fw.name }}
+        </li>
+      </ul>
+    </div>
+    
+  
+  </div>
+</section>
+
+<!-- SECTION EXPÉRIENCES -->
+<section class="experiences">
+  <h2>Expériences professionnelles</h2>
+  <div *ngFor="let exp of experiences" class="experience-card">
+    <h3>{{ exp.poste }} - {{ exp.entreprise }}</h3>
+    <p><strong>Année :</strong> {{ exp.annee }}</p>
+    <p>{{ exp.description }}</p>
+  </div>
+</section>
+
+<section class="experiences-acd">
+  <h2>Expériences académiques</h2>
+  <div *ngFor="let exp of experiences_acd" class="experience-card">
+    <h3>{{ exp.poste }} - {{ exp.entreprise }}</h3>
+    <p><strong>Année :</strong> {{ exp.annee }}</p>
+    <p>{{ exp.description }}</p>
+  </div>
+</section>

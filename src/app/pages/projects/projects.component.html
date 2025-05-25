@@ -1,0 +1,40 @@
+<section class="projects">
+  <h1>Mes projets</h1>
+
+ <p class="project-intro">
+  Découvrez ci-dessous une sélection de projets que j’ai réalisés, mêlant rigueur technique, 
+  sens du design et passion pour le développement web.
+</p>
+  <div class="project-grid">
+    <div *ngFor="let p of projects; let i = index" class="card">
+      <img [src]="p.image" [alt]="p.title" class="project-img" />
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.description }}</p>
+      <p><strong>Technologies :</strong> {{ p.techs.join(', ') }}</p>
+
+      <div class="buttons">
+        <a *ngIf="p.link" [href]="p.link" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+       <!--  <button (click)="openModal(i)">
+          <i class="fas fa-images"></i> Voir les captures
+        </button> -->
+
+        <a *ngIf="p.screenshots?.length" [routerLink]="['/projects', p.slug ]" class="btn secondary-btn">
+          Voir les captures
+        </a>
+      </div>
+    </div>
+  </div>
+
+   <!-- MODALE -->
+  <!-- <div class="modal" *ngIf="selectedProject !== null" (click)="closeModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <div class="modal-images">
+        <img *ngFor="let img of projects[selectedProject].screenshots" [src]="img" alt="screenshot" />
+      </div>
+    </div> 
+  </div>-->
+
+</section>

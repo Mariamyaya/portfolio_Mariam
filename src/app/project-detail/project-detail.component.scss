@@ -1,0 +1,40 @@
+.project-detail {
+  padding: 2rem;
+  text-align: center;
+
+  h1 {
+    color: #007acc;
+    margin-bottom: 1rem;
+  }
+
+  .screenshot-viewer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    .main-screenshot {
+      max-width: 90%;
+      max-height: 80vh;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      object-fit: contain;
+    }
+
+    .nav-button {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #005fa3;
+      }
+    }
+  }
+}

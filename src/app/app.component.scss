@@ -1,0 +1,49 @@
+/* Corps principal */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* NAVBAR FIXÉE EN HAUT */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007acc;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 1000;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &.active {
+      border-bottom: 2px solid white;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* CONTENU avec marge en haut pour laisser place à la navbar */
+.main-content {
+  flex: 1;
+  padding: 6rem 1rem 2rem; // marge haute pour la navbar
+}
+
+/* FOOTER normal */
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #444;
+  border-top: 1px solid #ccc;
+}
