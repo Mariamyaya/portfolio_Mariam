@@ -38,7 +38,7 @@ outilDeVersion = [
 
   experiences = [
     {
-      poste: 'Déveuloppeuse web (Stage PFE)',
+      poste: 'Développeuse web (Stage PFE)',
       entreprise: 'Vivace Consulting',
       annee: '2024',
       description: 'Mise en place d’une application web pour la gestion de l’hospitalisation des patients.'
@@ -47,7 +47,7 @@ outilDeVersion = [
       poste: 'Développeuse JAVA (Stage)',
       entreprise: 'Global electronique',
       annee: '2023',
-      description: 'Création d’un module de gestion des soins médicaux.'
+      description: 'Mise en place d’une application web (ERP).'
     },
 
     {
@@ -61,21 +61,21 @@ outilDeVersion = [
 
   experiences_acd = [
     {
-      poste: 'Déveuloppeuse Mobile',
-      entreprise: 'IGA',
+      filiere: 'Filière: Génie Informatique',
+      entreprise: 'Institut Supérieur du génie appliqué (IGA)',
       annee: '2023',
-      description: 'Mise en place d’une application mobile de guide touristique.'
+      description: 'Creation d’une application mobile de guide touristique.'
     },
 
     {
-      poste: 'Développeuse Java',
-      entreprise: 'IGA',
+      filiere: 'Filière: Génie Informatique',
+      entreprise: 'Institut Supérieur du génie appliqué (IGA)',
       annee: '2023',
-      description: 'Gestion des emploi du temps.'
+      description: 'Mise en place d’un logiciel permettant la gestion des emplois de temps.'
     },
     {
-      poste: 'Développeuse web',
-      entreprise: 'IGA',
+      filiere: 'Filière: Génie Informatique',
+      entreprise: 'Institut Supérieur du génie appliqué (IGA)',
       annee: '2022',
       description: 'Création d’un site web de gestion des stocks.'
     }

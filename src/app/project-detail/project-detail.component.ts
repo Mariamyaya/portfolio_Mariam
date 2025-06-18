@@ -23,7 +23,12 @@ export class ProjectDetailComponent {
         '/images/Captures_patients/patient-form1.png',
         '/images/Captures_patients/patient-form2.png',
         '/images/Captures_patients/patient-merge.png',
-        '/images/Captures_patients/fusion_confirm.png'
+        '/images/Captures_patients/fusion_confirm.png',
+
+        '/images/Captures_patients/list-admission.png',
+        '/images/Captures_patients/patient_list.png',
+        '/images/Captures_patients/reason-list.png',
+        '/images/Captures_patients/export-listmedecin.png'
       ]
     },
     {
@@ -51,7 +56,9 @@ export class ProjectDetailComponent {
         '/images/Captures_flutter/endroit_f.jpg',
         '/images/Captures_flutter/Lieu.jpg',
         '/images/Captures_flutter/liste_monum.jpg',
+        '/images/Captures_flutter/Menu.jpg',
          '/images/Captures_flutter/partage.jpg',
+          '/images/Captures_flutter/commente.jpg',
         
       ]
     },
@@ -64,8 +71,6 @@ export class ProjectDetailComponent {
        screenshots: [
         '/images/Captures_ERP/login.png',
         '/images/Captures_ERP/admin.png',
-        '/images/Captures_ERP/User_p.png',
-        '/images/Captures_ERP/Achat_p.png',
         '/images/Captures_ERP/home_p.png',
       ]
     },
@@ -76,11 +81,11 @@ export class ProjectDetailComponent {
       description: 'Mise en place d’une logiciel permettant la gestion des emplois de temps',
       techs: ['J2E', 'JSTL','ChartJS', 'Postgresql'],
         screenshots: [
-        '/images/Captures_gestion-emp/Capture1.PNG', 
+        '/images/Captures_gestion-emp/Capture1.PNG',
+        '/images/Captures_gestion-emp/Capture8.PNG',  
         '/images/Captures_gestion-emp/Capture2.PNG', 
-        '/images/Captures_gestion-emp/Capture3.PNG', 
-        '/images/Captures_gestion-emp/Capture4.PNG', 
-        '/images/Captures_gestion-emp/Capture5.PNG',  
+        '/images/Captures_gestion-emp/Capture9.PNG', 
+        '/images/Captures_gestion-emp/Capture11.PNG',  
       ],
     },
 

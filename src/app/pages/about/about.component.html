@@ -17,8 +17,8 @@
           ma maîtrise de technologies comme HTML, CSS, Javascript, Angular, Python, Java ou encore SQL, tout en développant ma rigueur, ma curiosité et mon envie de toujours apprendre.
       </p>
       <p>
-       Mon objectif est de devenir développeuse fullstack, avec une expertise particulière en Angular pour le frontend et Python/Java 
-       pour le backend. Je maîtrise également des outils comme HTML, SCSS, Git, PostgreSQL et 
+       Mon objectif est de devenir une développeuse fullstack, avec une expertise particulière en Angular pour le frontend et Python/Java 
+       pour le backend. Je maîtrise également des outils comme GitHub, GitLab, Git, Figma ... et 
        je m’intéresse de près à l’optimisation de l’expérience utilisateur (UI/UX).
        J’ai eu l’opportunité de travailler sur plusieurs projets personnels et académiques, mêlant développement d’interfaces, 
        logique métier et intégration de bases de données,ce qui m’a permis de mettre en pratique mes compétences de manière concrète.
@@ -94,7 +94,8 @@
 <section class="experiences-acd">
   <h2>Expériences académiques</h2>
   <div *ngFor="let exp of experiences_acd" class="experience-card">
-    <h3>{{ exp.poste }} - {{ exp.entreprise }}</h3>
+    <h3>{{ exp.entreprise }} - {{ exp.filiere }}</h3>
+   
     <p><strong>Année :</strong> {{ exp.annee }}</p>
     <p>{{ exp.description }}</p>
   </div>
