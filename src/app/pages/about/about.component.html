@@ -10,36 +10,29 @@
     <div class="about-text">
       <h1>À propos de moi</h1>
       <p>
-        Je m'appelle Mariam Yaya Traore, actuellement en 4ᵉ année d’école d’ingénierie en informatique, avec une spécialisation en 
-        Software Engineering. Au-delà des lignes de code, ce qui me motive chaque jour, c’est la création de solutions utiles, accessibles
-         et bien pensées. J’aime explorer comment une interface claire, un backend solide et une bonne expérience utilisateur peuvent 
-         transformer une idée en produit concret. Mes projets, qu’ils soient académiques ou personnels, m’ont permis de renforcer
-          ma maîtrise de technologies comme HTML, CSS, Javascript, Angular, Python, Java ou encore SQL, tout en développant ma rigueur, ma curiosité et mon envie de toujours apprendre.
+      Je suis Mariam Yaya, ingénieure en devenir, passionnée par l’art de transformer des idées en expériences numériques concrètes.
+      En 4ᵉ année d’école d’ingénierie informatique, spécialité Software Engineering, j’aime concevoir des solutions utiles, intuitives et performantes. 
+      Ce qui m’anime? Le mélange subtil entre une interface élégante, un backend robuste et une logique fluide.
+      </p>
+      <p>De l’HTML au CSS, d’Angular à Python, en passant par Java et SQL, chaque technologie est pour moi un outil pour façonner des projets qui ont du sens. 
+      Qu’ils soient personnels ou académiques, ils nourrissent ma curiosité, affûtent ma rigueur, et renforcent mon envie de toujours apprendre et créer.
       </p>
       <p>
-       Mon objectif est de devenir une développeuse fullstack, avec une expertise particulière en Angular pour le frontend et Python/Java 
-       pour le backend. Je maîtrise également des outils comme GitHub, GitLab, Git, Figma ... et 
-       je m’intéresse de près à l’optimisation de l’expérience utilisateur (UI/UX).
-       J’ai eu l’opportunité de travailler sur plusieurs projets personnels et académiques, mêlant développement d’interfaces, 
-       logique métier et intégration de bases de données,ce qui m’a permis de mettre en pratique mes compétences de manière concrète.
+       En tant que développeuse, je conçois des applications complètes, de l’interface utilisateur au backend, avec une expertise affirmée en Angular, Python et Java. 
+       Chaque projet est pour moi l’occasion de conjuguer performance, ergonomie et élégance du code. 
+       Je maîtrise les outils modernes comme Git, GitHub, GitLab ou Figma, et je place l’expérience utilisateur au cœur de mes réalisations.
+       Mes projets académiques et personnels m’ont permis d’acquérir une vision globale du développement, en associant logique métier, design d’interface et intégration de bases de données.
+       J’aime coder, structurer, itérer… mais surtout, donner vie à des idées à travers des solutions digitales concrètes et utiles.
       </p>
     </div>
   </div>
 </section>
 
-<!--SECTION COMPÉTENCES -->
-<!-- <section class="skills">
-  <h2>Mes compétences</h2>
-  <ul>
-    <li *ngFor="let skill of competences">{{ skill }}</li>
-  </ul>
-</section> --> 
-
 <section class="skills">
   <h2>Mes compétences</h2>
 
   <div class="skills-grid">
-    <!-- Colonne Frontend -->
+    
     <div class="skills-column">
       <h3><i class="fas fa-code"></i> Frontend</h3>
       <ul>
@@ -49,7 +42,6 @@
       </ul>
     </div>
 
-    <!-- Colonne Frontend -->
     <div class="skills-column">
       <h3><i class="fas fa-code"></i>Backend</h3>
       <ul>
@@ -76,17 +68,14 @@
         </li>
       </ul>
     </div>
-    
-  
   </div>
 </section>
 
-<!-- SECTION EXPÉRIENCES -->
 <section class="experiences">
   <h2>Expériences professionnelles</h2>
   <div *ngFor="let exp of experiences" class="experience-card">
     <h3>{{ exp.poste }} - {{ exp.entreprise }}</h3>
-    <p><strong>Année :</strong> {{ exp.annee }}</p>
+    <p><strong>Date :</strong> {{ exp.annee }}</p>
     <p>{{ exp.description }}</p>
   </div>
 </section>

@@ -3,7 +3,7 @@
 
  <p class="project-intro">
   Découvrez ci-dessous une sélection de projets que j’ai réalisés, mêlant rigueur technique, 
-  sens du design et passion pour le développement web.
+  sens du design et passion pour le développement web , mobile et desktop.
 </p>
   <div class="project-grid">
     <div *ngFor="let p of projects; let i = index" class="card">
@@ -16,10 +16,7 @@
         <a *ngIf="p.link" [href]="p.link" target="_blank">
           <i class="fab fa-github"></i> GitHub
         </a>
-       <!--  <button (click)="openModal(i)">
-          <i class="fas fa-images"></i> Voir les captures
-        </button> -->
-
+       
         <a *ngIf="p.screenshots?.length" [routerLink]="['/projects', p.slug ]" class="btn secondary-btn">
           Voir les captures
         </a>

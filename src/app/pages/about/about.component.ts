@@ -38,45 +38,46 @@ outilDeVersion = [
 
   experiences = [
     {
-      poste: 'Développeuse web (Stage PFE)',
+      poste: 'Développeuse web (Stage)',
       entreprise: 'Vivace Consulting',
-      annee: '2024',
+      annee: 'Février - Août 2024',
       description: 'Mise en place d’une application web pour la gestion de l’hospitalisation des patients.'
     },
     {
       poste: 'Développeuse JAVA (Stage)',
       entreprise: 'Global electronique',
-      annee: '2023',
-      description: 'Mise en place d’une application web (ERP).'
+      annee: 'Juillet - Septembre 2023',
+      description: 'Mise en place d’une application web (ERP) pour piloter la gestion d’un magasin (produits, ventes, achats, utilisateurs, etc.)'
     },
 
     {
       poste: 'Développeuse Angular (Stage)',
       entreprise: 'Vivace Consulting',
-      annee: '2022',
-      description: 'Création d’un CRM.'
+      annee: 'Juin - Septembre 2022',
+      description: 'Mise en place d’un logiciel de gestion des relations clients (CRM).'
     }
   ];
 
 
   experiences_acd = [
     {
-      filiere: 'Filière: Génie Informatique',
       entreprise: 'Institut Supérieur du génie appliqué (IGA)',
+      filiere: 'Filière: Génie Informatique',
       annee: '2023',
-      description: 'Creation d’une application mobile de guide touristique.'
+      description: "Réalisation de deux projets majeurs : une application mobile de guide touristique développée avec Flutter, et un système permettant la reconnaissance faciale."
+    },
+
+    {
+      filiere: 'Filière : Génie Informatique',
+      entreprise: 'Institut Supérieur du Génie Appliqué (IGA)',
+      annee: '2022',
+      description: 'Conception et développement d’un logiciel de gestion des emplois du temps, intégrant la planification automatique des cours et la gestion des ressources pédagogiques.'
     },
 
     {
       filiere: 'Filière: Génie Informatique',
       entreprise: 'Institut Supérieur du génie appliqué (IGA)',
-      annee: '2023',
-      description: 'Mise en place d’un logiciel permettant la gestion des emplois de temps.'
-    },
-    {
-      filiere: 'Filière: Génie Informatique',
-      entreprise: 'Institut Supérieur du génie appliqué (IGA)',
-      annee: '2022',
+      annee: '2021',
       description: 'Création d’un site web de gestion des stocks.'
     }
 

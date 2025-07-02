@@ -49,7 +49,7 @@ export class ProjectsComponent {
     {
       slug: 'erp',
       title: 'ERP',
-      description: 'Mise en place d’une application web (ERP)',
+      description: 'Développement d’une application web (ERP) pour piloter la gestion d’un magasin (produits, ventes, achats, utilisateurs, etc.)',
       techs: ['J2E', 'JSTL','ChartJS', 'Postgresql'],
       link: 'https://github.com/Mariamyaya/ERP',
       screenshots: [
@@ -72,7 +72,7 @@ export class ProjectsComponent {
    {
       slug: 'portfolio',
       title: 'Mon portfolio',
-      description: 'Mise en place de mon portefolio contenant l ensemble de mon parcours.',
+      description: "Mise en place de mon portefolio contenant l'ensemble de mon parcours.",
       techs: ['Angular','netlify'],
       link: 'https://github.com/Mariamyaya/portfolio_Mariam',
       image: '/images/portfolio.png'

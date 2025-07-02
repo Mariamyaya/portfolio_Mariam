@@ -13,13 +13,15 @@
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    position: relative;
+    flex-wrap: wrap;
 
     .main-screenshot {
-      max-width: 90%;
-      max-height: 80vh;
+      max-width: 90vw;
+      max-height: 60vh;
       border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
       object-fit: contain;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     }
 
     .nav-button {
@@ -36,5 +38,63 @@
         background-color: #005fa3;
       }
     }
+
+    .mobile-buttons {
+      display: none;
+      margin-top: 1rem;
+      gap: 1rem;
+
+      button {
+        width: 120px;
+      }
+    }
   }
+
+  /* Cacher mobile en desktop et inversement */
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .screenshot-viewer {
+      flex-direction: column;
+
+      .desktop-only {
+        display: none;
+      }
+
+      .mobile-only {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .main-screenshot {
+        max-width: 100%;
+        max-height: 50vh;
+      }
+    }
+  }
+}
+
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color:#007acc;
+  color:#e0e0e0;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+    &:hover {
+        background-color: #005fa3;
+      }
 }
