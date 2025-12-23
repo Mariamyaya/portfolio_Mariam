@@ -38,11 +38,11 @@ export class ProjectsComponent {
       slug: 'guide-touristique',
       title: 'Guide touristique',
       description: 'Création d’une application mobile de guide touristique.',
-      techs: ['Flutter', ' Figma', 'MYSQL'],
+      techs: ['React Native', ' Figma', 'MYSQL', 'Docker'],
       //link: 'https://github.com/Mariamyaya',
-      screenshots: [
+      /*screenshots: [
         '/images/Captures_flutter/inscrip_f.jpg',  
-      ],
+      ],*/
       image: '/images/Captures_flutter/accueil.jpg'
     },
 
@@ -50,7 +50,7 @@ export class ProjectsComponent {
       slug: 'erp',
       title: 'ERP',
       description: 'Développement d’une application web (ERP) pour piloter la gestion d’un magasin (produits, ventes, achats, utilisateurs, etc.)',
-      techs: ['J2E', 'JSTL','ChartJS', 'Postgresql'],
+      techs: ['JEE', 'JSTL','ChartJS', 'Postgresql'],
       link: 'https://github.com/Mariamyaya/ERP',
       screenshots: [
         '/images/Captures_flutter/inscrip_f.jpg',  

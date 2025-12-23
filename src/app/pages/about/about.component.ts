@@ -13,11 +13,13 @@ frontendTechnos = [
   { name: 'HTML, CSS', icon: 'fab fa-html5' },
   { name: 'JavaScript / TypeScript', icon: 'fab fa-js' },
   { name: 'Angular', icon: 'fab fa-angular' },
+   { name: 'React Native', icon: 'fab fa-react' },
   { name: 'Bootstrap, TailwindCSS', icon: 'fab fa-bootstrap' } 
 ];
 
 backendTechnos = [
   { name: 'Django', icon: 'fas fa-leaf' }, 
+  { name: 'Spring', icon: 'fas fa-server' }, 
   { name: 'MySQL, PostgreSQL', icon: 'fas fa-database' },
   { name: 'Java', icon: 'fab fa-java' },
   { name: 'Python', icon: 'fab fa-python' }
@@ -60,11 +62,18 @@ outilDeVersion = [
 
 
   experiences_acd = [
+
+    {
+      entreprise: 'Institut Supérieur du génie appliqué (IGA)',
+      filiere: 'Filière: Informatique',
+      annee: '2025',
+      description: "Réalisation d'une application mobile de guide touristique développée avec React native"
+    },
     {
       entreprise: 'Institut Supérieur du génie appliqué (IGA)',
       filiere: 'Filière: Génie Informatique',
       annee: '2023',
-      description: "Réalisation de deux projets majeurs : une application mobile de guide touristique développée avec Flutter, et un système permettant la reconnaissance faciale."
+      description: "Réalisation d'un système permettant la reconnaissance faciale."
     },
 
     {
